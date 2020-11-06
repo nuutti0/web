@@ -1,5 +1,35 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+* {
+  margin: 0;
+}
+
 body {
-font-family: Arial;
+font-family: "Space Mono", sans-serif;
 color: whitesmoke;
 background-color: rgb(109,78,247);
+text-decoration: none;
+}
+
+a {
+  color: whitesmoke;
+}
+
+header {
+left: 0;
+top: 0;
+margin-bottom: 7vh;
+padding: 1rem;
+float: right;
+word-spacing: 1vw;
+}
+
+.data {
+  margin: 0;
+  padding-left: 2rem;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
